@@ -6,7 +6,11 @@ import {
   SiMui,
   SiTypescript,
   SiReactquery,
+  SiGit,
+  SiStyledcomponents,
 } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { FaProjectDiagram } from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -71,6 +75,43 @@ const Skills = () => {
             <div className="flex items-center space-x-3 text-lg font-semibold">
               <SiReactquery className="text-red-500 text-3xl" />
               <span>React Query</span>
+            </div>
+
+            <div className="flex items-center space-x-3 text-lg font-semibold">
+              <FaGitAlt className="text-orange-600 text-3xl" />
+              <span>Git</span>
+            </div>
+
+            <div className="flex items-center space-x-3 text-lg font-semibold">
+              <SiGit className="text-orange-600 text-3xl" />
+              <span>GitHub</span>
+            </div>
+
+            <div className="flex items-center space-x-3 text-lg font-semibold">
+              <FaProjectDiagram className="text-green-500 text-3xl" />
+              <span>Agile</span>
+            </div>
+
+            <div className="flex items-center space-x-3 text-lg font-semibold">
+              <svg
+                className="w-8 h-8 text-blue-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                />
+              </svg>
+              <span>Scrum</span>
+            </div>
+
+            <div className="flex items-center space-x-3 text-lg font-semibold">
+              <SiStyledcomponents className="text-pink-400 text-3xl" />
+              <span>Styled Components</span>
             </div>
           </div>
         </div>
