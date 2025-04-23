@@ -9,7 +9,7 @@ const Hero = () => {
             </h1>
             <h2 className="text-2xl md:text-3xl mb-6">React.js Developer</h2>
             <p className="text-lg mb-8 max-w-lg">
-              Results-driven Software Engineer with 3.6 years of experience in
+              Results-driven Software Engineer with 3.7 years of experience in
               designing, developing, and maintaining complex software solutions.
               Proficient in frontend development. Adept at collaborating in
               agile environments to deliver high-quality software products.
@@ -22,8 +22,8 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="/K_Yogesh_Reddy_Frontend_ReactJS.pdf"
-                download="K_Yogesh_Reddy_Frontend_ReactJS.pdf"
+                href="/Yogesh_reddy_React_April_Resume.pdf"
+                download="Yogesh_reddy_React_April_Resume.pdf"
                 className="border border-accent px-6 py-3 rounded-lg font-medium hover:bg-secondary transition flex items-center"
               >
                 <svg

@@ -12,7 +12,7 @@ const About = () => {
           <div className="md:w-1/3 mb-8 md:mb-0 flex justify-center">
             <div className="w-64 h-64 bg-accent bg-opacity-20 rounded-lg overflow-hidden">
               <Image
-                src="/IMG_0602_converted.jpg"
+                src="/IMG_20240518_080653_935.jpg"
                 alt="K Yogesh Reddy"
                 width={400}
                 height={400}
