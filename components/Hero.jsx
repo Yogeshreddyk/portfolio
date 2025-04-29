@@ -22,8 +22,8 @@ const Hero = () => {
                 Contact Me
               </a>
               <a
-                href="/Yogesh_reddy_React_April_Resume.pdf"
-                download="Yogesh_reddy_React_April_Resume.pdf"
+                href="/Yogesh_reddy_ReactJS_April_Resume.pdf"
+                download="Yogesh_reddy_Resume.pdf"
                 className="border border-accent px-6 py-3 rounded-lg font-medium hover:bg-secondary transition flex items-center"
               >
                 <svg
