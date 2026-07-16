@@ -1,52 +1,27 @@
-const Hero = () => {
-  return (
-    <section id="home" className="min-h-screen flex items-center pt-20">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Hi, I'm <span className="text-accent">K Yogesh Reddy</span>
-            </h1>
-            <h2 className="text-2xl md:text-3xl mb-6">React.js Developer</h2>
-            <p className="text-lg mb-8 max-w-lg">
-              Results-driven Software Engineer with 3.7 years of experience in
-              designing, developing, and maintaining complex software solutions.
-              Proficient in frontend development. Adept at collaborating in
-              agile environments to deliver high-quality software products.
-            </p>
-            <div className="flex space-x-4">
-              <a
-                href="#contact"
-                className="bg-accent px-6 py-3 rounded-lg font-medium hover:bg-opacity-90 transition"
-              >
-                Contact Me
-              </a>
-              <a
-                href="/Yogesh_reddy_ReactJS_April_Resume.pdf"
-                download="Yogesh_reddy_Resume.pdf"
-                className="border border-accent px-6 py-3 rounded-lg font-medium hover:bg-secondary transition flex items-center"
-              >
-                <svg
-                  className="w-5 h-5 mr-2"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                  />
-                </svg>
-                Download Resume
-              </a>
-            </div>
-          </div>
+import Image from "next/image";
+
+const Hero = () => (
+  <section id="home" className="hero-section">
+    <div className="hero-glow hero-glow-one" />
+    <div className="hero-glow hero-glow-two" />
+    <div className="site-container hero-grid">
+      <div className="hero-copy">
+        <p className="eyebrow"><span /> Frontend Engineer · Bengaluru</p>
+        <h1>I build ecommerce experiences that stay <em>fast at scale.</em></h1>
+        <p className="hero-lead">I&apos;m Yogesh, a frontend engineer with around 5 years of experience shipping accessible, production-ready React and Next.js products for high-traffic platforms including Tata Neu and Croma.</p>
+        <div className="hero-actions">
+          <a href="#experience" className="button button-primary">Explore my work <span>↘</span></a>
+          <a href="/Yogesh_React_5_Years_Resume_July_2026.pdf" download className="button button-secondary">Download résumé</a>
+        </div>
+        <div className="hero-stats" aria-label="Career highlights">
+          <div><strong>~5</strong><span>Years experience</span></div><div><strong>5</strong><span>Enterprise products</span></div><div><strong>4</strong><span>Languages supported</span></div>
         </div>
       </div>
-    </section>
-  );
-};
-
+      <div className="portrait-wrap" aria-label="Portrait of K Yogesh Reddy">
+        <div className="portrait-card"><Image src="/IMG_20240518_080653_935.jpg" alt="K Yogesh Reddy" fill priority sizes="(max-width: 768px) 80vw, 420px" /><div className="portrait-shade" /><div className="portrait-caption"><span>Currently focused on</span><strong>Scalable design systems</strong></div></div>
+        <div className="floating-chip chip-react">React.js</div><div className="floating-chip chip-cms">Sanity CMS</div>
+      </div>
+    </div>
+  </section>
+);
 export default Hero;
